@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(182, 223, 182);
+    margin: 0;
+}
+
+/* el orden en css no afecta a los estilos, excepto que tengan el mismo valor de especificidad */
+.lorem {
+    color: peru;
+}
+
+div {
+    background-color: paleturquoise;
+    /* arriba, derecha, abajo, izquierda */
+    margin: 4% 25% 3% 10%;
+    padding: 2%;
+    /* boder radius si lo ponemos en pixeles */
+    border-radius: 10px;
+}
+
+div p {
+    color: rebeccapurple;
+}
+
+p {
+    color: orangered;
+}
